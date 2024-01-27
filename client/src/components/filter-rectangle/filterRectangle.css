@@ -1,0 +1,29 @@
+.main-box-user{
+    display: flex;
+     flex-direction: row;
+     justify-content:  space-around;
+     align-items: center;
+     position: fixed;
+     z-index: 1;
+     background: var(--global-07-light, #F8F9FA);
+    width: 100%;
+     /* top: 50px; */
+     /* position: static; */
+     /* top: 50px; */
+}
+.filter-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly  ;
+    width: 90%;
+}
+.heading-style{
+    width: 30%;
+}
+.single-filter-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* margin: 2%; */
+}

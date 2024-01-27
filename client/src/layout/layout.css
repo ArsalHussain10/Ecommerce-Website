@@ -1,0 +1,22 @@
+.layout-style{
+    display: flex;
+    flex-direction: column;
+    background: var(--global-07-light, #F8F9FA);
+    min-height: 900px;
+    max-height: fit-content;}
+.layout-box-admin{
+    display: flex;
+    background: var(--global-07-light, #F8F9FA);
+
+    flex-direction: row;
+    /* position: relative;
+    top:79px; */
+}
+.layout-box-user{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top:55px;
+    min-height: 900px;
+    max-height: fit-content;
+}

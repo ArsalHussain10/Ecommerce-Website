@@ -1,0 +1,24 @@
+.delivery-address-box{
+  flex-shrink: 0;
+  border: 1px solid var(--components-bradcrumb-fill, #E9ECEF);
+  background: var(--global-09-white, #FFF);
+  align-items: center;}
+  .checkout-box{
+    position: relative;
+    top: 13px;
+    height:900px;
+  }
+  .payment-box{
+    width: 395px;
+    min-height: 100px;
+    max-height: max-content;
+    flex-shrink: 0;
+border: 1px solid var(--components-bradcrumb-fill, #E9ECEF);
+background: var(--global-09-white, #FFF);
+  }
+  .payment-card{
+    border-radius: 10px;
+border: 1px solid var(--components-forms-input-border, #CED4DA);
+background: var(--global-09-white, #FFF);
+    min-height: 162px;
+  }

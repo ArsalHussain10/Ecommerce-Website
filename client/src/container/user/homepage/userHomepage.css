@@ -1,0 +1,44 @@
+    .user-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: var(--global-07-light, #F8F9FA);
+}
+.products-listing{
+    display: flex;
+    flex-direction: row;
+    overflow-y: auto;
+    position: relative;
+    background: var(--global-07-light, #F8F9FA);
+    position: relative;
+    top: 58px;
+
+}
+.left-box{
+    width: 50%;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 3% 2%;
+    overflow-y:auto;
+    /* position: relative; */
+}
+.right-box{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* position: fixed; */
+    padding: 3% 2%;
+    /* flex: 0 0; */
+}
+
+.error-container,
+.loader-container {
+  position: relative;
+  top: 200px;
+  z-index: 2px;
+  color: black;
+}

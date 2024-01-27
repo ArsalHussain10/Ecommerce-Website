@@ -1,0 +1,49 @@
+.main-box-admin{
+    position: relative;
+    top: 76px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-right: 0%;
+    background: var(--global-07-light, #F8F9FA);
+    padding-left: 1%;
+
+}
+.cards-box{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    margin: 2% 0;
+}
+.charts-box{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    align-items:flex-start;
+    flex-wrap: wrap;
+    margin: 2% 0;
+    /* max-width:'inherit'; */
+    height: '400px';
+    /* max-width: fit-content; */
+}
+.dashboard-heading{
+    color: var(--Heading-Color, #002050);
+
+/* Heading/H4 */
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 28.8px; /* 120% */
+}
+.top-products{
+    color: var(--Heading-Color, #002050);
+
+/* Heading/H6 */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 19.2px; /* 120% */
+}
